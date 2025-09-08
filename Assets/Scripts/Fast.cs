@@ -18,7 +18,7 @@ public class Fast : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb2d.linearVelocity = Vector2.left * 1.5;
+        rb2d.linearVelocity = Vector2.left * 1.5f;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
